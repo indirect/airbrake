@@ -318,7 +318,7 @@ configuration block.
     end
 
 To ignore *only* certain errors (and override the defaults), use the
-#ignore_only attribute.
+# ignore_only attribute.
 
     Airbrake.configure do |config|
       config.api_key      = '1234567890abcdef'
